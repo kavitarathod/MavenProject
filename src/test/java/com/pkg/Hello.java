@@ -1,4 +1,5 @@
 package com.pkg;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -19,6 +20,9 @@ public class Hello {
 		//navigating to url
 		driver.get("https://www.google.com/");
 		//closing the browser
+		driver.findElement(By.name("q")).sendKeys("Java");
+		driver.findElement(By.name("btnK")).click();
+		driver.findElement(By.xpath("//*[@id=\"rso\"]/div[3]/div/div[2]/div/div/div[1]/a/h3")).click();
 		driver.close();
 	}
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37" started-at="2019-02-16T10:30:36Z" finished-at="2019-02-16T10:30:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37" started-at="2019-02-16T10:30:36Z" finished-at="2019-02-16T10:30:36Z">
+      <class name="com.pkg.Hello">
+        <test-method status="PASS" signature="printMsg()[pri:0, instance:com.pkg.Hello@6be46e8f]" name="printMsg" duration-ms="9" started-at="2019-02-16T10:30:36Z" finished-at="2019-02-16T10:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMsg -->
+      </class> <!-- com.pkg.Hello -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

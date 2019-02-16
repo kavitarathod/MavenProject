@@ -21,9 +21,9 @@ public class Hello {
 		driver.get("https://www.google.com/");
 		//closing the browser
 		driver.findElement(By.name("q")).sendKeys("Java");
-		driver.findElement(By.name("btnK")).click();
-		driver.findElement(By.xpath("//*[@id=\"rso\"]/div[3]/div/div[2]/div/div/div[1]/a/h3")).click();
-		driver.close();
+		//driver.findElement(By.name("btnK")).click();
+		//driver.findElement(By.xpath("//*[@id=\"rso\"]/div[3]/div/div[2]/div/div/div[1]/a/h3")).click();
+		//driver.close();
 	}
 
 }

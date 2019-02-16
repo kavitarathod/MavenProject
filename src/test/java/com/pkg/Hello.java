@@ -12,7 +12,7 @@ public class Hello {
 			
 		System.out.println("Hello Kavitha");	
 		
-		String new1=System.getProperty("user.dir")+"\\Drivers";
+		String new1=System.getProperty("user.dir");
 		System.out.println(new1);
 		System.setProperty("webdriver.chrome.driver",new1+"\\chromedriver.exe");
 		driver=new ChromeDriver();
